@@ -1,7 +1,7 @@
-import { BuildTimeChart } from "./components/rolldown/BuildTimeChart";
-import { BundleSizeChart } from "./components/rolldown/BundleSizeChart";
-import { MetricNavigation } from "./components/rolldown/MetricNavigation";
-import { StatsCards } from "./components/rolldown/StatsCards";
+import { BuildTimeChart } from "./components/rolldown/BuildTimeChart.tsx";
+import { BundleSizeChart } from "./components/rolldown/BundleSizeChart.tsx";
+import { MetricNavigation } from "./components/rolldown/MetricNavigation.tsx";
+import { StatsCards } from "./components/rolldown/StatsCards.tsx";
 
 interface RolldownStatsProps {
   selectedMetric: string;

@@ -11,7 +11,7 @@ import {
   Zap,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { PageContainer } from "../components/layout/PageContainer";
+import { PageContainer } from "../components/layout/PageContainer.tsx";
 
 // VoidZero ecosystem projects
 const projects = [

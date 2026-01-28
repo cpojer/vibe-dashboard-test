@@ -1,10 +1,10 @@
 import { render } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { describe, expect, it } from "vite-plus/test";
-import App from "../App";
-import MinificationBenchmarksPage from "../pages/MinificationBenchmarksPage";
-import NpmPackagesPage from "../pages/NpmPackagesPage";
-import RolldownStatsPage from "../pages/RolldownStatsPage";
+import App from "../App.tsx";
+import MinificationBenchmarksPage from "../pages/MinificationBenchmarksPage.tsx";
+import NpmPackagesPage from "../pages/NpmPackagesPage.tsx";
+import RolldownStatsPage from "../pages/RolldownStatsPage.tsx";
 
 describe("Pages rendering tests", () => {
   it("should render App component without errors", () => {
