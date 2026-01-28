@@ -1,8 +1,8 @@
 import { PageHeader } from "@vibe/shared";
 import { Badge } from "@vibe/ui";
 import { Package } from "lucide-react";
-import { PageContainer } from "../components/layout/PageContainer";
-import NpmPackages from "../NpmPackages";
+import { PageContainer } from "../components/layout/PageContainer.tsx";
+import NpmPackages from "../NpmPackages.tsx";
 
 function NpmPackagesPage() {
   return (

@@ -2,7 +2,7 @@ import { PageHeader } from "@vibe/shared";
 import { GitBranch, ExternalLink, Clock, TrendingUp, Star } from "lucide-react";
 import { useState } from "react";
 import dependentsData from "../../../../data/dependents.json";
-import { PageContainer } from "../components/layout/PageContainer";
+import { PageContainer } from "../components/layout/PageContainer.tsx";
 
 interface Dependent {
   url: string;
