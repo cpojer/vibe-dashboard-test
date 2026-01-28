@@ -2,8 +2,8 @@ import { PageHeader } from "@vibe/shared";
 import { Badge } from "@vibe/ui";
 import { FileDown, Gauge, Timer, Zap } from "lucide-react";
 import minificationData from "../../../../data/minification-benchmarks-data.json";
-import { PageContainer } from "../components/layout/PageContainer";
-import MinificationBenchmarks from "../MinificationBenchmarks";
+import { PageContainer } from "../components/layout/PageContainer.tsx";
+import MinificationBenchmarks from "../MinificationBenchmarks.tsx";
 
 function MinificationBenchmarksPage() {
   const totalLibraries = Object.keys(minificationData).length;
