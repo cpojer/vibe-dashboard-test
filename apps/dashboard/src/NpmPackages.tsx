@@ -1,4 +1,4 @@
-import { PackageDownloadsList } from "./components/npm/PackageDownloadsList";
+import { PackageDownloadsList } from "./components/npm/PackageDownloadsList.tsx";
 
 const packages = [
   "vite",
