@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { Sidebar } from "./layout/Sidebar";
-import { useSidebar } from "../context/SidebarContext";
+import { Sidebar } from "./layout/Sidebar.tsx";
+import { useSidebar } from "../context/SidebarContext.tsx";
 
 function Layout() {
   const { collapsed } = useSidebar();
