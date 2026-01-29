@@ -1,7 +1,7 @@
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout";
-import { SidebarProvider } from "./context/SidebarContext";
+import Layout from "./components/Layout.tsx";
+import { SidebarProvider } from "./context/SidebarContext.tsx";
 
 // Lazy load all page components for code-splitting
 const HomePage = lazy(() => import("./pages/HomePage"));

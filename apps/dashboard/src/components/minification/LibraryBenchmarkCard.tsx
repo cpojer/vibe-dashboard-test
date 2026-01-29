@@ -1,6 +1,6 @@
 import { getLibraryData } from "@vibe/utils";
-import { CompressionRatioChart } from "./CompressionRatioChart";
-import { MinificationTimeChart } from "./MinificationTimeChart";
+import { CompressionRatioChart } from "./CompressionRatioChart.tsx";
+import { MinificationTimeChart } from "./MinificationTimeChart.tsx";
 
 interface LibraryBenchmarkCardProps {
   library: string;
