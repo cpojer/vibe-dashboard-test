@@ -3,8 +3,8 @@ import { Badge } from "@vibe/ui";
 import { BarChart3, Clock, Package, TrendingUp } from "lucide-react";
 import { useState } from "react";
 import rolldownStatsData from "../../../../data/rolldown-version-stats.json";
-import { PageContainer } from "../components/layout/PageContainer";
-import RolldownStats from "../RolldownStats";
+import { PageContainer } from "../components/layout/PageContainer.tsx";
+import RolldownStats from "../RolldownStats.tsx";
 
 function RolldownStatsPage() {
   const [selectedMetric, setSelectedMetric] = useState("bundleSize");
